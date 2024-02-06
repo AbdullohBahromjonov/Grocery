@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
-                VStack {
+                VStack(alignment: .leading) {
                     Button(
                         action: {},
                         label: {
@@ -26,7 +26,55 @@ struct ContentView: View {
                                 .cornerRadius(4)
                         }
                     )
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Image("Product")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 230)
+                        .frame(maxWidth: .infinity)
+                    
+                    HStack(spacing: 4) {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                        Text("4.1")
+                        
+                        Divider()
+                        
+                        Text("19 отзывов")
+                            .font(.system(size: 16, weight: .regular))
+                            .foregroundColor(.gray)
+                        
+                        Spacer()
+                        
+                        Text("-5%")
+                            .foregroundColor(.white)
+                            .font(.system(size: 14, weight: .semibold))
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(
+                                RoundedRectangle(cornerRadius: 3)
+                                    .foregroundColor(.red)
+                            )
+                    }
+                    .font(.system(size: 16, weight: .semibold))
+                    
+                    Text("Добавка  \"Липа\" к чаю 200 г")
+                        .font(.system(size: 30, weight: .bold))
+                        .padding(.top, 10)
+                    
+                    HStack {
+                        Image("Spain flag")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 20)
+                            .clipShape(Circle())
+                            .padding(.horizontal, 3)
+                        Text("Испания, Риоха")
+                            .font(.system(size: 14, weight: .medium))
+                            .foregroundColor(Color(hue: 1.0, saturation: 0.009, brightness: 0.333))
+                    }
+                    
+                    Text("Описание")
                 }
             }
             .padding(.horizontal)
