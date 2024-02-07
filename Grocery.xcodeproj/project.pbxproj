@@ -11,6 +11,12 @@
 		3B146A702B71478100F3F51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B146A6F2B71478100F3F51F /* ContentView.swift */; };
 		3B146A722B71478200F3F51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B146A712B71478200F3F51F /* Assets.xcassets */; };
 		3B146A762B71478200F3F51F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B146A752B71478200F3F51F /* Preview Assets.xcassets */; };
+		3B9598E42B733FEE000FCBE4 /* DotedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9598E32B733FEE000FCBE4 /* DotedLine.swift */; };
+		3B9598E62B734007000FCBE4 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9598E52B734007000FCBE4 /* FeatureView.swift */; };
+		3B9598E82B73402E000FCBE4 /* RaitingsAndDiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9598E72B73402E000FCBE4 /* RaitingsAndDiscountView.swift */; };
+		3B9598EA2B734045000FCBE4 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9598E92B734045000FCBE4 /* CountryView.swift */; };
+		3B9598EC2B73405B000FCBE4 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9598EB2B73405B000FCBE4 /* FeaturesView.swift */; };
+		3B9598EE2B7343C6000FCBE4 /* ProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9598ED2B7343C6000FCBE4 /* ProductScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		3B146A712B71478200F3F51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B146A732B71478200F3F51F /* Grocery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grocery.entitlements; sourceTree = "<group>"; };
 		3B146A752B71478200F3F51F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B9598E32B733FEE000FCBE4 /* DotedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotedLine.swift; sourceTree = "<group>"; };
+		3B9598E52B734007000FCBE4 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
+		3B9598E72B73402E000FCBE4 /* RaitingsAndDiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaitingsAndDiscountView.swift; sourceTree = "<group>"; };
+		3B9598E92B734045000FCBE4 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		3B9598EB2B73405B000FCBE4 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		3B9598ED2B7343C6000FCBE4 /* ProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				3B146A6D2B71478100F3F51F /* GroceryApp.swift */,
 				3B146A6F2B71478100F3F51F /* ContentView.swift */,
+				3B9598ED2B7343C6000FCBE4 /* ProductScreen.swift */,
+				3B9598EB2B73405B000FCBE4 /* FeaturesView.swift */,
+				3B9598E92B734045000FCBE4 /* CountryView.swift */,
+				3B9598E72B73402E000FCBE4 /* RaitingsAndDiscountView.swift */,
+				3B9598E52B734007000FCBE4 /* FeatureView.swift */,
+				3B9598E32B733FEE000FCBE4 /* DotedLine.swift */,
 				3B146A712B71478200F3F51F /* Assets.xcassets */,
 				3B146A732B71478200F3F51F /* Grocery.entitlements */,
 				3B146A742B71478200F3F51F /* Preview Content */,
@@ -139,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9598E42B733FEE000FCBE4 /* DotedLine.swift in Sources */,
 				3B146A702B71478100F3F51F /* ContentView.swift in Sources */,
 				3B146A6E2B71478100F3F51F /* GroceryApp.swift in Sources */,
+				3B9598EA2B734045000FCBE4 /* CountryView.swift in Sources */,
+				3B9598E62B734007000FCBE4 /* FeatureView.swift in Sources */,
+				3B9598E82B73402E000FCBE4 /* RaitingsAndDiscountView.swift in Sources */,
+				3B9598EC2B73405B000FCBE4 /* FeaturesView.swift in Sources */,
+				3B9598EE2B7343C6000FCBE4 /* ProductScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +309,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -326,7 +350,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
